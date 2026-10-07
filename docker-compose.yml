@@ -1,0 +1,9 @@
+services:
+  agent:
+    build: .
+    container_name: linkedin-ai-agent
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./state.json:/app/state.json

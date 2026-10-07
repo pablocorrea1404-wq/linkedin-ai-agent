@@ -1,0 +1,2 @@
+# Minimal dependencies (Core logic utilizes Python 3.10+ standard library)
+python-dotenv>=1.0.0
